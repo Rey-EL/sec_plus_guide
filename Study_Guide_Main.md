@@ -497,3 +497,123 @@ They provide a historical record of activity that is crucial for detecting malic
 
 ### How are these Data Sources Used?
 They are used by collecting, normalizing, and correlating data from various sources to identify anomalies, match known indicators of compromise (IOCs), and reconstruct the timeline of an event.
+
+## 5.1: Security Governance
+
+### What is Security Governance?
+Security governance is the framework of policies, processes, and structures that an organization uses to manage and control its information security.
+
+### Why is Security Governance Important?
+It provides a structured approach to manage risks, ensure compliance, align security with business goals, establish accountability, optimize resources, and build trust.
+
+### Who is Involved in Security Governance?
+The Board of Directors, CISO, security steering committees, IT departments, legal and compliance teams, internal audit, and all employees have a role.
+
+### Where is Security Governance Applied?
+It is applied enterprise-wide, including the supply chain, cloud environments, operational technology (OT), and remote work environments.
+
+### When does Security Governance Occur?
+It is a continuous process that includes regular policy reviews, ongoing risk assessments, continuous monitoring, and integration with incident response and change management.
+
+### How is Security Governance Implemented?
+It is implemented by adopting a recognized framework (like NIST or ISO 27001), developing clear policies, establishing a risk management program, using metrics and reporting, providing training, and conducting regular audits.
+
+## 5.2: Risk Management
+
+### What is Risk Management?
+Risk management is the process of identifying, assessing, and controlling threats to an organization's capital and earnings.
+
+### Why is Risk Management Important?
+It is important for protecting assets, making informed decisions, ensuring compliance, and supporting business continuity.
+
+### Who is Involved in Risk Management?
+Senior management, a dedicated risk management team, business and asset owners, and all employees are involved.
+
+### Where is Risk Management Applied?
+It is applied across the entire organization, covering all assets, processes, and activities.
+
+### When does Risk Management Occur?
+Risk management is a continuous and ongoing process, not a one-time event.
+
+### How is Risk Management Implemented?
+It is implemented through a cycle of identifying risks, assessing their likelihood and impact, analyzing them, responding with a chosen strategy (avoidance, transference, mitigation, or acceptance), and continuously monitoring them.
+
+## 5.3: Third-Party Risk
+
+### What is Third-Party Risk?
+Third-party risk is the potential threat to an organization's data, operations, and finances that is posed by its vendors, suppliers, and other outside partners.
+
+### Why is Third-Party Risk Important?
+It is important because a significant number of data breaches are caused by third-party vendors, many regulations require it, and a vendor-related incident can damage an organization's reputation.
+
+### Who is Involved in Third-Party Risk Management?
+A vendor management team, business owners, and legal and procurement teams are involved.
+
+### Where is Third-Party Risk Management Applied?
+It is applied to all of an organization's vendors and suppliers.
+
+### When does Third-Party Risk Management Occur?
+It is an ongoing process that begins before a vendor is selected and continues throughout the life of the relationship.
+
+### How is Third-Party Risk Management Implemented?
+It is implemented by conducting due diligence on vendors, including security requirements in contracts, continuously monitoring their security posture, and having an incident response plan for vendor-related incidents.
+
+## 5.4: Security Compliance
+
+### What is Security Compliance?
+Security compliance is the process of adhering to the security standards, regulations, and laws that apply to an organization.
+
+### Why is Security Compliance Important?
+It is important for meeting legal and regulatory requirements, building and maintaining customer trust, and reducing the risk of security incidents.
+
+### Who is Involved in Security Compliance?
+A compliance team, a legal team, and business owners are all involved in the process.
+
+### Where is Security Compliance Applied?
+It is applied to all of an organization's systems, processes, and data.
+
+### When does Security Compliance Occur?
+Security compliance is an ongoing process.
+
+### How is Security Compliance Implemented?
+It is implemented by identifying applicable requirements, implementing the necessary controls to meet them, monitoring compliance, and reporting on the organization's compliance status to stakeholders.
+
+## 5.5: Audits and Assessments
+
+### What are Audits and Assessments?
+Audits and assessments are processes used to evaluate the effectiveness of an organization's security controls. This includes attestations, internal and external audits, and penetration testing.
+
+### Why are Audits and Assessments Important?
+They provide independent verification of security controls, help identify weaknesses, and are often required for regulatory compliance.
+
+### Who is Involved in Audits and Assessments?
+Auditors (both internal and external) and the business and IT staff who provide information and assistance are involved.
+
+### Where are Audits and Assessments Applied?
+They can be applied to all of an organization's systems, processes, and data.
+
+### When do Audits and Assessments Occur?
+They are typically conducted on a periodic basis, such as annually.
+
+### How are Audits and Assessments Implemented?
+They are implemented by planning the scope and objectives, conducting the fieldwork, reporting the findings, and then remediating any identified weaknesses.
+
+## 5.6: Security Awareness
+
+### What is Security Awareness?
+Security awareness is the knowledge and attitude that members of an organization possess regarding the protection of the organization's physical and, especially, informational assets.
+
+### Why is Security Awareness Important?
+It is important because the human factor is often the weakest link in security. A strong security awareness program can reduce the risk of security incidents and is often a compliance requirement.
+
+### Who is Involved in Security Awareness?
+The security team is responsible for developing and implementing the program, and all employees have a responsibility to be aware of and follow security policies.
+
+### Where is Security Awareness Applied?
+Security awareness should be applied across the entire organization.
+
+### When does Security Awareness Occur?
+Security awareness is an ongoing process.
+
+### How is Security Awareness Implemented?
+It is implemented through security awareness training, regular communication of security information, reinforcement of security messages through various channels, and measurement of the program's effectiveness.
