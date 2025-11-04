@@ -237,3 +237,83 @@ They are essential for protecting against threats, containing breaches, and ensu
 
 ### How are they implemented?
 Key techniques include segmentation (dividing a network), access control (restricting access), configuration enforcement (maintaining secure baselines), hardening (reducing the attack surface), isolation (separating critical systems), and patching (fixing vulnerabilities).
+
+## 3.1: Architecture Models
+
+### What are architecture models?
+Architecture models in cybersecurity are frameworks that outline the structure and integration of security controls within an IT environment. They define how security is implemented across on-premises, cloud, virtualized, IoT, and ICS systems.
+
+### Who uses architecture models?
+Security architects, system administrators, and IT managers use these models to design, implement, and maintain a secure and resilient infrastructure that aligns with business goals.
+
+### Where are architecture models applied?
+These models are applied to an organization's entire IT landscape, including on-premises data centers, cloud deployments, virtual environments, and specialized systems like IoT and Industrial Control Systems (ICS).
+
+### When are architecture models chosen?
+Architecture models are chosen during the initial design phase of a system or network, and are continuously reviewed and updated to adapt to new technologies, threats, and business requirements.
+
+### Why are architecture models important?
+They provide a standardized approach to security, ensuring that all components of the IT infrastructure are protected in a consistent and effective manner. They help in managing complexity, reducing risk, and achieving compliance.
+
+### How are architecture models implemented?
+Implementation involves selecting the appropriate model (e.g., on-premises, cloud, hybrid), integrating security controls at every layer, and following best practices for each specific architecture, such as defense-in-depth for ICS or zero trust for cloud.
+
+## 3.2: Enterprise Infrastructure
+
+### What is enterprise infrastructure security?
+It is the practice of securing an organization's entire IT infrastructure, including hardware, software, networks, and facilities, to protect it from threats and ensure business continuity.
+
+### Who is responsible for it?
+A collective effort involving security teams, network administrators, and IT operations is required. Everyone from the CISO to individual users plays a role in maintaining a secure enterprise infrastructure.
+
+### Where is it applied?
+Security is applied across all components of the enterprise infrastructure, from the physical data center to the cloud, and from network devices to end-user computers.
+
+### When is it a concern?
+Enterprise infrastructure security is an ongoing concern, from the initial design and procurement of systems to their daily operation, maintenance, and eventual decommissioning.
+
+### Why is it important?
+A secure enterprise infrastructure is the foundation of a strong security posture. It protects sensitive data, ensures the availability of critical services, and maintains the trust of customers and partners.
+
+### How is it achieved?
+It is achieved by applying security principles like the CIA triad and zero trust, selecting appropriate security controls, using secure communication protocols, and implementing a defense-in-depth strategy.
+
+## 3.3: Data Protection
+
+### What is data protection?
+Data protection involves the strategies and processes used to safeguard sensitive information from unauthorized access, use, disclosure, alteration, or destruction.
+
+### Who is responsible for data protection?
+Data owners, data custodians, and data users all have responsibilities. Ultimately, the organization is accountable for protecting the data it collects and processes.
+
+### Where is data protected?
+Data must be protected wherever it resides: at rest (in storage), in transit (across the network), and in use (while being processed).
+
+### When is data protection necessary?
+Data protection is necessary throughout the entire data lifecycle, from creation and storage to usage and destruction.
+
+### Why is data protection critical?
+It is critical for maintaining confidentiality, integrity, and availability of data, complying with regulations (like GDPR and HIPAA), and protecting the privacy of individuals.
+
+### How is data protected?
+Data is protected through methods like encryption, access control, data loss prevention (DLP), data masking, and secure data disposal, all guided by data classification policies.
+
+## 3.4: Resilience and Recovery
+
+### What are resilience and recovery?
+Resilience is the ability of a system to withstand and continue operating during a failure or attack. Recovery is the process of restoring systems and data to a normal operational state after a disruption.
+
+### Who is involved in resilience and recovery?
+Business continuity teams, disaster recovery teams, IT operations, and crisis management personnel are all involved in planning and executing resilience and recovery strategies.
+
+### Where are these plans implemented?
+These plans are implemented across the entire organization, covering everything from individual systems to entire data centers and business processes. This includes primary sites and designated recovery sites.
+
+### When are resilience and recovery tested?
+Plans should be tested regularly through various methods, such as tabletop exercises, simulations, and full-scale tests, to ensure they are effective and up-to-date.
+
+### Why are they important?
+They are crucial for ensuring business continuity, minimizing financial losses, and maintaining customer confidence in the face of a disaster or major incident.
+
+### How are they achieved?
+Resilience is achieved through high availability (HA) measures like redundancy and failover. Recovery is achieved through disaster recovery (DR) plans, which include having backup sites (hot, warm, cold), regular data backups, and well-defined restoration procedures.
