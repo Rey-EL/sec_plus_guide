@@ -317,3 +317,183 @@ They are crucial for ensuring business continuity, minimizing financial losses, 
 
 ### How are they achieved?
 Resilience is achieved through high availability (HA) measures like redundancy and failover. Recovery is achieved through disaster recovery (DR) plans, which include having backup sites (hot, warm, cold), regular data backups, and well-defined restoration procedures.
+
+## 4.1: Computing Resources
+
+### What are Computing Resources?
+Computing resources encompass the infrastructure and components essential for IT operations, including secure baselines, mobile solutions, and applications. Security for these resources involves hardening systems, securing wireless networks, sandboxing for untrusted applications, and continuous monitoring.
+
+### Who Manages Computing Resources?
+Security professionals, system administrators, developers, and Security Operations Center (SOC) analysts are responsible for securing and managing computing resources.
+
+### Where are Computing Resources Located?
+These resources are located across an organization's entire IT environment, including on-premises data centers, cloud services, mobile devices, and network infrastructure.
+
+### When is Security for Computing Resources Applied?
+Security is a continuous process, applied from the initial setup and throughout the lifecycle of each resource, including regular maintenance and real-time monitoring.
+
+### Why is Securing Computing Resources Important?
+Securing computing resources is vital to protect against vulnerabilities, prevent unauthorized access, and ensure the integrity and availability of data and services.
+
+### How are Computing Resources Secured?
+Security is achieved through establishing secure baselines, implementing Mobile Device Management (MDM), hardening systems by reducing the attack surface, using strong wireless security protocols like WPA3, practicing secure application development, isolating untrusted code with sandboxing, and using SIEM systems for continuous monitoring.
+
+## 4.2: Asset Management
+
+### What is Asset Management?
+Asset management is the process of managing the entire lifecycle of hardware, software, and data assets, from acquisition to disposal.
+
+### Who is Responsible for Asset Management?
+IT departments, management, and asset owners are responsible for the organization's asset management.
+
+### Where does Asset Management Apply?
+It applies across all departments and locations within an organization, covering every asset the company owns.
+
+### When is Asset Management Performed?
+Asset management is a continuous process, active from the moment an asset is acquired until it is securely disposed of.
+
+### Why is Asset Management Important?
+It is important for reducing risk, ensuring regulatory compliance, and maintaining a complete and accurate inventory of all organizational assets.
+
+### How is Asset Management Implemented?
+It is implemented by securely procuring assets, assigning ownership, classifying assets based on sensitivity, maintaining an inventory with asset tags, and securely sanitizing or destroying assets at the end of their lifecycle.
+
+## 4.3: Vulnerability Management
+
+### What is Vulnerability Management?
+Vulnerability management is the ongoing process of identifying, analyzing, remediating, validating, and reporting on security vulnerabilities.
+
+### Who Performs Vulnerability Management?
+Security professionals and IT administrators are primarily responsible for the vulnerability management process.
+
+### Where is Vulnerability Management Applied?
+It is applied across all IT assets, including systems, networks, and applications, to ensure a comprehensive security posture.
+
+### When is Vulnerability Management Conducted?
+Vulnerability management is a continuous, proactive process, not a one-time fix.
+
+### Why is Vulnerability Management Important?
+It is important for proactively reducing an organization's attack surface before attackers can exploit vulnerabilities.
+
+### How is Vulnerability Management Performed?
+The process involves using scanners to identify vulnerabilities, analyzing them with scoring systems like CVSS, remediating them through patching or configuration changes, validating the fix, and reporting the results to stakeholders.
+
+## 4.4: Alerting and Monitoring
+
+### What are Alerting and Monitoring?
+Alerting and monitoring involve the continuous observation of computing environments to detect and react to security events in real-time.
+
+### Who is Responsible for Alerting and Monitoring?
+Security Operations Center (SOC) teams and IT departments are responsible for these activities.
+
+### Where do Alerting and Monitoring Occur?
+These activities occur across all systems, applications, and infrastructure, with data often centralized in a Security Information and Event Management (SIEM) system.
+
+### When are Alerting and Monitoring Performed?
+They are performed continuously and in real-time to ensure immediate detection of and reaction to potential threats.
+
+### Why are Alerting and Monitoring Important?
+They are important for detecting threats early, maintaining system health, ensuring compliance, and providing a holistic view of the security posture.
+
+### How are Alerting and Monitoring Implemented?
+They are implemented using tools like SIEMs, vulnerability scanners, Data Loss Prevention (DLP), and Intrusion Detection/Prevention Systems (IDS/IPS) to collect, analyze, and generate alerts based on predefined rules or anomalies.
+
+## 4.5: Enterprise Security
+
+### What is Enterprise Security?
+Enterprise security involves a suite of tools and technologies designed to protect an organization's network and data. This includes firewalls, IDS/IPS, DNS filtering, Data Loss Prevention (DLP), Network Access Control (NAC), and Endpoint/Extended Detection and Response (EDR/XDR).
+
+### Who Manages Enterprise Security?
+Network administrators and security analysts are responsible for configuring, managing, and responding to alerts from these security systems.
+
+### Where are Enterprise Security Measures Deployed?
+These measures are deployed at the network perimeter, between network segments, on endpoints, and in the cloud to provide layered security.
+
+### When are Enterprise Security Systems Active?
+These systems are active continuously, providing real-time protection and monitoring of the IT environment.
+
+### Why is Enterprise Security Important?
+It is important for preventing unauthorized access, blocking malicious traffic, identifying and stopping threats, and protecting sensitive data from exfiltration.
+
+### How do Enterprise Security Systems Work?
+Firewalls control traffic based on rules, IDS/IPS detect and block threats, DNS filtering blocks malicious websites, DLP prevents data exfiltration, NAC restricts access to compliant devices, and EDR/XDR provide advanced threat detection and response on endpoints and across the security stack.
+
+## 4.6: Identity and Access Management (IAM)
+
+### What is Identity and Access Management (IAM)?
+IAM is a framework of policies and technologies for ensuring that the right users have the appropriate access to technology resources. It includes provisioning, Single Sign-On (SSO), Multi-Factor Authentication (MFA), and Privileged Access Management (PAM).
+
+### Who is Involved in IAM?
+IT and HR departments manage the provisioning process, while all end-users interact with IAM systems like SSO and MFA. Security teams manage PAM systems.
+
+### Where is IAM Applied?
+IAM is applied across all applications, systems, and services that require user authentication and authorization.
+
+### When is IAM Used?
+IAM is used when a user joins, leaves, or changes roles within an organization, and every time a user logs in or accesses a resource.
+
+### Why is IAM Important?
+IAM is crucial for enforcing the principle of least privilege, improving user experience, and protecting against unauthorized access, especially to privileged accounts.
+
+### How is IAM Implemented?
+IAM is implemented through automated provisioning workflows, using standards like SAML for SSO, requiring multiple verification factors for MFA, and using dedicated tools for PAM to secure and monitor privileged access.
+
+## 4.7: Automation and Orchestration
+
+### What are Automation and Orchestration?
+Automation is the execution of individual security tasks without manual intervention. Orchestration is the coordination of multiple automated tasks across different systems into a cohesive workflow.
+
+### Who Uses Automation and Orchestration?
+Security teams use these technologies to improve their efficiency and effectiveness.
+
+### Where are they Applied?
+They are applied across various security domains and are often managed by Security Orchestration, Automation, and Response (SOAR) platforms.
+
+### When are they Used?
+They are used for tasks that are repeatable, stable, and can be codified, such as incident response playbooks or vulnerability scanning.
+
+### Why are they Important?
+They are important for improving efficiency, reducing human error, enhancing the security posture, and allowing security teams to focus on more strategic work.
+
+### How are they Implemented?
+They are implemented using scripts, APIs, and SOAR platforms that integrate with other security tools to create automated workflows and playbooks.
+
+## 4.8: Incident Response
+
+### What is Incident Response?
+Incident response is a structured methodology for managing security incidents, from preparation and detection to containment, eradication, recovery, and post-incident analysis.
+
+### Who is Involved in Incident Response?
+Incident response teams, digital forensics analysts, and other organizational stakeholders are involved in the process.
+
+### Where does Incident Response Take Place?
+Incident response activities take place across the entire IT infrastructure, wherever an incident may occur.
+
+### When is Incident Response Initiated?
+The incident response process is initiated upon the detection of a security incident.
+
+### Why is Incident Response Important?
+It is important for minimizing the impact of incidents, restoring normal operations quickly, and preventing similar incidents from happening in the future.
+
+### How is Incident Response Conducted?
+It is conducted by following a predefined Incident Response Plan (IRP) that outlines the steps for each phase of the response. This includes training, testing, root cause analysis, threat hunting, and digital forensics to preserve and analyze evidence.
+
+## 4.9: Data Sources
+
+### What are Data Sources for Investigations?
+Data sources for security investigations are primarily log data and other records of activity from various parts of the IT environment.
+
+### Who Uses These Data Sources?
+Security analysts, incident responders, and forensic investigators use these data sources to support their investigations.
+
+### Where do these Data Sources Originate?
+These sources originate from endpoints, network devices, applications, and cloud environments, and are often centralized in a SIEM.
+
+### When are these Data Sources Used?
+They are used during the incident response lifecycle for analysis and for proactive threat hunting.
+
+### Why are these Data-Sources Important?
+They provide a historical record of activity that is crucial for detecting malicious behavior, determining the scope of an incident, and performing root cause analysis.
+
+### How are these Data Sources Used?
+They are used by collecting, normalizing, and correlating data from various sources to identify anomalies, match known indicators of compromise (IOCs), and reconstruct the timeline of an event.
