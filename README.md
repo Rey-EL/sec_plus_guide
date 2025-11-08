@@ -1,4 +1,4 @@
-# CompTIA Security+ (SY0-701) Study Guide
+# sec-plus-guide
 
 This repository contains a comprehensive study guide for the CompTIA Security+ (SY0-701) certification exam. The guide is organized by the official exam domains and breaks down each topic using the "5 W's and H" (Who, What, Where, When, Why, How) format for a thorough understanding.
 
