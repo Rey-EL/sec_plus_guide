@@ -50,3 +50,9 @@ This guide is a work in progress.
 ### Project Background
 
 For details on the project's goals, structure, and the full exam syllabus used to create this guide, please see the **[Project Charter](./project-charter.md)**.
+
+---
+
+## Security Context
+
+The CompTIA Security+ certification covers a broad range of cybersecurity fundamentals, many of which directly address the principles and practices necessary to mitigate vulnerabilities outlined in the OWASP Top 10. Topics such as threat analysis, vulnerability management, secure architecture, access control, and security operations are all crucial for developing secure applications and systems, thereby protecting against common and critical web application security risks.
