@@ -56,3 +56,15 @@ For details on the project's goals, structure, and the full exam syllabus used t
 ## Security Context
 
 The CompTIA Security+ certification covers a broad range of cybersecurity fundamentals, many of which directly address the principles and practices necessary to mitigate vulnerabilities outlined in the OWASP Top 10. Topics such as threat analysis, vulnerability management, secure architecture, access control, and security operations are all crucial for developing secure applications and systems, thereby protecting against common and critical web application security risks.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements, bug reports, or want to contribute to the study guide, please feel free to open an issue or submit a pull request.
